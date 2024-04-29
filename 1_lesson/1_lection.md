@@ -54,11 +54,11 @@ System.out.println("Goodbye world");
 
 Основные типы данных в Java условно делятся на ссылочные и примитивные
 
-![Untitled](%D0%97%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20Java%20a7f6b2da3d6a444191ea1e2fb89c15c4/Untitled.png)
+![Untitled](1_lection/Untitled.png)
 
 К ссылочным, например, относятся классы или интерфейсы, массивы.
 
-![Untitled](%D0%97%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20Java%20a7f6b2da3d6a444191ea1e2fb89c15c4/Untitled%201.png)
+![Untitled](1_lection/Untitled%201.png)
 
 К примитивным - логические типы данных, целочисленные, вещественные, символьные типы данных.
 
@@ -215,7 +215,7 @@ System.out.println(Integer.MIN_VALUE); // -2147483648
 }
 ```
 
-![Untitled](%D0%97%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20Java%20a7f6b2da3d6a444191ea1e2fb89c15c4/Untitled%202.png)
+![Untitled](1_lection/Untitled%202.png)
 
 Попробуем проверить является ли какой-то определенный символ строки числом или нет:
 
@@ -559,7 +559,7 @@ public class Program {
 
 ## Преобразования
 
-![Untitled](%D0%97%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20Java%20a7f6b2da3d6a444191ea1e2fb89c15c4/Untitled%203.png)
+![Untitled](1_lection/Untitled%203.png)
 
 ### Можно
 
