@@ -54,11 +54,11 @@ System.out.println("Goodbye world");
 
 Основные типы данных в Java условно делятся на ссылочные и примитивные
 
-![Untitled](1_lection/Untitled.png)
+![Untitled](1_lection/1.png)
 
 К ссылочным, например, относятся классы или интерфейсы, массивы.
 
-![Untitled](1_lection/Untitled%201.png)
+![Untitled](1_lection/2.png)
 
 К примитивным - логические типы данных, целочисленные, вещественные, символьные типы данных.
 
@@ -215,7 +215,7 @@ System.out.println(Integer.MIN_VALUE); // -2147483648
 }
 ```
 
-![Untitled](1_lection/Untitled%202.png)
+![Untitled](1_lection/3.png)
 
 Попробуем проверить является ли какой-то определенный символ строки числом или нет:
 
@@ -559,7 +559,7 @@ public class Program {
 
 ## Преобразования
 
-![Untitled](1_lection/Untitled%203.png)
+![Untitled](1_lection/4.png)
 
 ### Можно
 
