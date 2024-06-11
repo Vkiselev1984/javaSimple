@@ -1,64 +1,36 @@
-public class Student implements Comparable<Student>{
+public class Student extends User implements Comparable<Student> {
+    private Group<Student> group;
     private int studentId;
-    private String firstName;
-    private String secondName;
-    private String lastName;
 
-    public Student(int studentId, String firstName, String secondName, String lastName) {
-        this.studentId = studentId;
-        this.firstName = firstName;
-        this.secondName = secondName;
-        this.lastName = lastName;
+    public Student(String name, String surname, Group<Student> group) {
+        super(name, surname);
+        this.group = group;
+    }
+
+    public Student(String name, String surname) {
+        super(name, surname);
     }
 
     public int getStudentId() {
         return studentId;
     }
 
-    public void setStudentId(int studentId) {
-        this.studentId = studentId;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getSecondName() {
-        return secondName;
-    }
-
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     @Override
-    public String toString() {
-        return "Student{" +
-                "studentId=" + studentId +
-                ", firstName='" + firstName + '\'' +
-                ", secondName='" + secondName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
+    public int compareTo(Student otherStudent) {
+        return Integer.compare(this.studentId, otherStudent.getStudentId());
     }
 
-    @Override
-    public int compareTo(Student o) {
-        if(studentId > o.getStudentId())
-            return 1;
-        if(studentId < o.getStudentId())
-            return -1;
-        return 0;
+    public String getFullName() {
+        if (getSurname() != null && !getSurname().isEmpty()) {
+            return getName() + " " + getSurname();
+        } else {
+            return getName();
+        }
+    }
+
+    public void removeStudent(Student student) {
+        if (student != null && group != null) {
+            group.removeStudent(student);
+        }
     }
 }

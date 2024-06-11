@@ -1,4 +1,4 @@
-# Some standard Java interfaces and examples of their use
+# Some standard Java interfaces and examples of their use, generalizations
 
 ## Task 1 - Iterator
 - Create a Student Class
@@ -30,3 +30,31 @@
 - Create a Streamservice class by adding a method to sort the list of streams using the created StreamComparator
 - Modify the Controller class by adding the created service to it
 - Modify the Controller class by adding a method sorting the list of threads to it by calling the created service
+
+## Task 5
+- Create a User class and transfer the basic fields ( full name ) to it. 
+- Modify the previously created Student Comparator class
+- Rename to the User Comparator
+- Type it T inheriting from the User type ( T extends User )
+- To type the implemented interface Comparator T
+- Change the comparer method by typing T in the input data instead of specific classes
+- Make edits to the place where the previous comparator was used
+
+## Task 6
+- Create a User View interface
+- Type it T inherited from the User type
+- Create the sendOnConsole(List<Student> students) method in it using typing
+- Create a Student View class that implements the created interface
+
+## Task 7
+- Modify the previously created Controller class by renaming it to StudentController
+- Create a new UserController interface
+- Describe the create method in it
+- Type it T inherited from the User type
+- In the Student Controller class, implement the UserController interface
+- Add console output to the controller methods using the sendOnConsole method
+
+## Task 8
+- Create a Teacher Service class and implement it in a similar way to what was done at the seminar
+- Create a teacher 's class and implement it in the same way as the one discussed at the seminar
+- Create a teacher controller class and implement the ability to create, edit a specific teacher and display a list of teachers available in the system
