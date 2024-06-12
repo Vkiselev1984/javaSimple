@@ -1,3 +1,5 @@
+package ModelViewController.Model;
+
 public abstract class User {
     protected String fullName;
     protected int birthYear;

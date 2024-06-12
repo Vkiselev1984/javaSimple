@@ -1,3 +1,5 @@
+package ModelViewController.Model;
+
 public class Teacher extends User {
     private String teacherId;
 

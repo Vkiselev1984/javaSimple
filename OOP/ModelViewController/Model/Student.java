@@ -1,4 +1,7 @@
+package ModelViewController.Model;
+
 public class Student extends User {
+    
     private String studentId;
 
     public Student(String fullName, int birthYear, String studentId) {
