@@ -1,6 +1,7 @@
 package ModelViewController.Model;
 
 public class Teacher extends User {
+    
     private String teacherId;
 
     public Teacher(String fullName, int birthYear, String teacherId) {
@@ -14,6 +15,10 @@ public class Teacher extends User {
 
     public void setTeacherId(String teacherId) {
         this.teacherId = teacherId;
+    }
+
+    public String getId() {
+        return getTeacherId();
     }
 
     @Override
