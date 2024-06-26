@@ -35,7 +35,7 @@ Create a Controller class aggregating the necessary classes in the form of field
 Demonstrate the application of SOLID principles.
 It is necessary to comment on the sections of code in the project that we refactor, which principle apply and why
 
-The code provided follows the Single Responsibility Principle (SRP) by separating concerns into specific classes with distinct responsibilities.
+The code provided follows the Single Responsibility Principle by separating concerns into specific classes with distinct responsibilities.
 
 Each class is responsible for a specific aspect of the application, such as data management, user representation, user interactions, and view display.
 
