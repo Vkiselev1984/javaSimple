@@ -1,23 +1,17 @@
-import ModelViewController.Model.Student;
-import ModelViewController.Model.StudyGroup;
-import ModelViewController.Model.Teacher;
-import java.util.ArrayList;
-import java.util.List;
+import ModelViewController.Controller.Controller;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        
-        Teacher teacher = new Teacher("Vladimir", 1980, "Math");
-        List<Student> students = new ArrayList<>();
-        students.add(new Student("Evgeny", 1991));
-        students.add(new Student("Nikolay", 1990));
+        Controller controller = new Controller();
 
-        StudyGroup studyGroup = new StudyGroup(teacher, students);
+        controller.createStudent("Ivan", 1999);
+        controller.createStudent("Petr", 1999);
+        controller.createTeacher("Vladimir", 1984, "OOP");
 
-        System.out.println("Teacher: " + studyGroup.getTeacher().getFullName());
-        System.out.println("Students in the group:");
-        for (Student student : studyGroup.getStudents()) {
-            System.out.println("Student ID: " + student.getStudentId() + ", Name: " + student.getFullName() + ", Birth Year: " + student.getBirthYear());
-        }
+        controller.displayStudents();
+        controller.displayTeachers();
+
+        controller.createStudyGroupWithIds("teacher1", Arrays.asList("student1", "student2"));
     }
 }
