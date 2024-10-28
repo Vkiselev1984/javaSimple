@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\kiselev\\Desktop\\Git\\javaSimple\\animals_catalog\\lib\\postgresql-42.7.4.jar"
+    ],
+    "java.format.settings.url": ".vscode/java-formatter.xml"
+}
